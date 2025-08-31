@@ -20,16 +20,10 @@ Conclusão
 A adoção do Amazon S3, Amazon RDS e Amazon EC2 transformou a Abstergo Industries, substituindo gastos fixos com infraestrutura por um modelo de custos mais flexível e previsível. Além da significativa redução de despesas, nossa operação agora se beneficia de maior escalabilidade, segurança e confiabilidade. Estamos mais bem preparados para crescer e nos adaptar rapidamente às exigências do mercado farmacêutico, mantendo a excelência em nossas operações.
 
 Anexos
-graph TD
-    subgraph "Nuvem AWS"
-        A[Amazon EC2: Aplicações Internas] --> B(Amazon RDS: Banco de Dados de Pedidos/Estoque);
-        A --> C(Amazon S3: Armazenamento de Documentos e Relatórios);
-    end
+Diagrama da Arquitetura de Solução
 
-    subgraph "Integração B2B"
-        D[Parceiros (Farmácias)] --> A;
-        E[Internet] --> A;
-    end
+![Diagrama da Arquitetura de Solução da Abstergo Industries](img/abstergo-arquitetura.png)
+
 
 Assinatura do Responsável pelo Projeto:
 Danilo Lima
