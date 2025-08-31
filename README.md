@@ -1,7 +1,9 @@
 Introdução
+
 Este relatório descreve a migração da infraestrutura da Abstergo Industries, uma distribuidora farmacêutica, para a nuvem da AWS. O principal objetivo foi modernizar nossas operações e reduzir custos, substituindo hardware local por serviços gerenciados. A mudança visa aumentar a eficiência no gerenciamento de estoque, pedidos e na comunicação com nossos parceiros, ao mesmo tempo em que aprimoramos nossa agilidade e confiabilidade.
 
 Resumo do Projeto
+
 O projeto foi dividido em três etapas, focando na implementação de serviços chave da AWS: Amazon S3, para armazenamento de dados; Amazon RDS, para nosso banco de dados central; e Amazon EC2, para rodar nossas aplicações e APIs. Essa abordagem modular nos permitiu otimizar cada componente da nossa infraestrutura.
 
 Etapa 1: Armazenamento Escalável com Amazon S3
